@@ -13,7 +13,12 @@ let users = {
   },
   Sarah: {
     age: 48,
-    online: false
+    online: false,
+    //here is nested object. We will find it and highlight key(name who has hidden mister: "X"
+    hiden: {
+      mister: "X" 
+    }
+
   },
   Ryan: {
     age: 19,
